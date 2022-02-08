@@ -1,0 +1,23 @@
+In this txt file, I'll list problems that I encountered in Ubuntu and related solutions that I found or tried for each.
+
+1. Ubuntu is not booted first.
+	
+	sudo efibootmgr : to get related boot order list
+	
+	sudo efibootmgr -o 2001,0006,0004,0001 : to order boot order according to our desire (numbers are examples, not meaningful)
+
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
